@@ -1,0 +1,87 @@
+.clearfix { clear: both; }
+.top-left{}
+
+.top-links{
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+.top-links li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart{}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+header{
+  color: white;
+  background-color: rgb(32, 101, 136);
+}
+
+.header-div-1 a{
+  color: white;
+  font-size: 24;
+  text-decoration: none;
+}
+
+.header-div-2 a{
+  text-decoration: none;
+  color: white;
+  font-size: 24;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #bebebe;
+  float: left;
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  padding: 20px;
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+  font-size: 17px;
+  border: 1px solid #bebebe;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #bebebe;
+}
+
+.header-div-2{
+  margin: 0 auto;
+}
+
+.header-div-2 img{
+  float: left;
+}
+
+.header-div-2 button{
+  background-color: rgb(240, 146, 51)
+}
